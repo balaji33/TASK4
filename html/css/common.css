@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: "RalewayRegular";
+}
+
+img {
+    width: 100%;
+}
+
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("./fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewaySemiBold";
+    src: url("./fonts/Raleway-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayLight";
+    src: url("./fonts/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+.block-effect {
+    border: 2px solid #dacdcd;
+    box-shadow: 0 0px 10px rgb(95 125 188 / 30%);
+    margin-top: 35px;
+}
+
+.main-heading {
+    font-size: 15px;
+    font-family: "RalewaySemiBold";
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.user {
+    font-family: "OpenSans-Regular";
+    font-weight: 600;
+    color: hsl(0, 0%, 55%);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.icon {
+    font-family: "OpenSans-Regular";
+    font-size: 15px;
+    color: #12b7c8;
+}
+
+.bottom-inner {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "RalewayLight";
+    font-weight: 600;
+}
+
+.block-body {
+    margin: 20px 0px;
+}
+
+.status-prod {
+    color: #35da32;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.block-body li {
+    font-family: "RalewaySemiBold";
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.block-body {
+    margin-top: 20px;
+}
+
+.icon:after {
+    content: "\f062";
+    font-size: 14px;
+    position: absolute;
+    font-family: "FontAwesome";
+    margin-top: 2px;
+    margin-left: 5px;
+    transform: rotate(40deg);
+}
+
+.block-body ul li:nth-child(1):before {
+  content: "\f044";
+  font-size: 15px;
+  position: absolute;
+  font-family: "FontAwesome";
+  left: -15px;
+  color: #47b0ff;
+}
+
+.block-body ul li:nth-child(2):before {
+  content: "\f2ed";
+  font-size: 15px;
+  position: absolute;
+  font-family: "FontAwesome";
+  left: -15px;
+  color: #ff1f1f;
+}
+
+.block-body ul li:nth-child(3):before {
+  content: "\f4df";
+  font-size: 15px;
+  position: absolute;
+  font-family: "FontAwesome";
+  left: -15px;
+  color: #000000;
+}
+
+.processing{
+  color: #e75656;
+}
